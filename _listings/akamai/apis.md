@@ -33,7 +33,7 @@ apis:
   tags: Contracts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contracts/master/_listings/akamai/billing-center-api-v2-contracts-contractid-products-productid-statistics-year,month,fromyear,frommonth,toyear,tomonth-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contracts/master/_listings/akamai/billing-center-api-v2-contracts-contractid-products-productid-measures-year,month,fromyear,frommonth,toyear,tomonth,statisticname,billingdayonly-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
