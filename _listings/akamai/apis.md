@@ -20,8 +20,8 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-23"
-modified: "2018-03-23"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/contracts/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis: []
