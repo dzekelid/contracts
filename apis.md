@@ -4,16 +4,12 @@ description: This is a repository of contracts APIs, self-contained as a Github 
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/contracts.png
 created: "2018-02-24"
-modified: "2018-05-20"
+modified: "2018-06-18"
 url: http://contracts.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
 tags: Contracts
 include:
-- name: Facebook
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/contracts/master/_listings/facebook/apis.yaml
-- name: Akamai
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/contracts/master/_listings/akamai/apis.yaml
 - name: Xignite
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/contracts/master/_listings/xignite/apis.yaml
 maintainers:
