@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Plentymarkets
 x-complete: 0
 info:
-  title: Plentymarkets Returns a single contract
-  description: Returns a single contract.
+  title: Plentymarkets Creates a new contract
+  description: Creates a new contract.
   contact:
     name: plentymarkets
     url: https://forum.plentymarkets.com/c/rest-api

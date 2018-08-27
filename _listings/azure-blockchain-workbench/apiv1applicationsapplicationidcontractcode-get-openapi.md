@@ -1,9 +1,14 @@
+---
 swagger: "2.0"
 x-collection-name: Azure Blockchain Workbench
-x-complete: 1
+x-complete: 0
 info:
-  title: Azure Blockchain Workbench REST API
-  description: the-azure-blockchain-workbench-rest-api-is-a-workbench-extensibility-point-which-allows-developers-to-create-and-manage-blockchain-applications-manage-users-and-organizations-within-a-consortium-integrate-blockchain-applications-into-services-and-platforms-perform-transactions-on-a-blockchain-and-retrieve-transactional-and-contract-data-from-a-blockchain-
+  title: Azure Blockchain Workbench Get Applications Contract Code
+  description: |-
+    List all blockchain smart contract implementations of the specified blockchain application.
+                 Users who are Workbench administrators get all smart contract implementations. Non-Workbench administrators get all
+                 smart contract implementations for which they have at least one associated application role or is associated with a
+                 smart contract instance role.
   version: 1.0.0
 basePath: /
 schemes:
@@ -293,3 +298,17 @@ paths:
       - Check
       - Contract
       - Node
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

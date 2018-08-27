@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Xignite
 x-complete: 1
@@ -14,4 +13,24 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /ListFrontMonthContracts:
+    get:
+      summary: List Front Month Contracts
+      description: List all commodity future Front Month Contracts.
+      operationId: postListfrontmonthcontracts
+      x-api-path-slug: listfrontmonthcontracts-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - List
+      - Front
+      - Month
+      - Contracts

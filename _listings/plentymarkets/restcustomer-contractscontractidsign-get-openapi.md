@@ -93,6 +93,39 @@ paths:
       - Signing
       - Of
       - Contract
+    post:
+      summary: Sign a contract
+      description: Sign a contract.
+      operationId: postRestCustomerContractsContractSign
+      x-api-path-slug: restcustomer-contractscontractidsign-post
+      parameters:
+      - in: path
+        name: contractId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Sign
+      - Contract
+  /rest/customer_contracts/{contractId}/sign/document:
+    get:
+      summary: Starts download of signed contract document
+      description: Starts download of signed contract document.
+      operationId: getRestCustomerContractsContractSignDocument
+      x-api-path-slug: restcustomer-contractscontractidsigndocument-get
+      parameters:
+      - in: path
+        name: contractId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Starts
+      - Download
+      - Of
+      - Signed
+      - Contract
+      - Document
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
